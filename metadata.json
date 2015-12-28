@@ -1,0 +1,25 @@
+{
+  "author": "Carlos García Álvarez",
+  "license": "GNU General Public License v2",
+  "name": "cgalvarez-nodestack",
+  "project_page": "https://github.com/cgalvarez/puppet-nodestack",
+  "issues_url": "https://github.com/cgalvarez/puppet-nodestack/issues",
+  "source": "https://github.com/cgalvarez/puppet-nodestack",
+  "summary": "Puppet module to manage a complete Node.js stack (nvm, node.js/io.js and packages)",
+  "version": "0.1.0",
+  "tags": [
+    "nvm",
+    "nodejs",
+    "node.js",
+    "node",
+    "npm",
+    "iojs"
+  ],
+  "operatingsystem_support": [],
+  "requirements": [],
+  "dependencies": [
+    {"name":"artberri/nvm","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs/nodejs","version_requirement":">= 0.8.0"},
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.3.1"}
+  ]
+}
